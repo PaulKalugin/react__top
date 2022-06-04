@@ -45,6 +45,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .modal span {
@@ -64,4 +67,10 @@
   100% {
     filter: opacity(1);
   }
+}
+
+button {
+  z-index: 100;
+  position: absolute;
+  top: 60%;
 }

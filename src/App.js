@@ -5,6 +5,7 @@ import Modal from './components/modal'
 function App() {
   return (
     <div className="App">
+      <button>show</button>
       <Modal></Modal>
     </div>
   );
