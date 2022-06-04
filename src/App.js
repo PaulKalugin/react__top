@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <button>show</button>
       <Modal></Modal>
-      <div>New DIV</div>
+      <div>New DIVsssSS</div>
     </div>
   );
 }
