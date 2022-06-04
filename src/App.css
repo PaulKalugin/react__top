@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+
+.modal {
+  width: 100%;
+  height: 100vh;
+  background-color: #282c34;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal span {
+  color: #61dafb;
+  font-size: 48px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  animation: aminateText 3s ease infinite;
+}
+
+@keyframes aminateText {
+  0% {
+    filter: opacity(1);
+  }
+ 50% {
+   filter: opacity(0);
+ }
+  100% {
+    filter: opacity(1);
+  }
+}
